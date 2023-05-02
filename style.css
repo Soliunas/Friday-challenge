@@ -163,10 +163,6 @@ main > .container {
     padding: 3em;
     margin: 0 calc((100% - 1175px)  / 2);
 }
-.talents h1,
-.talents p {
-    text-align: left;
-}
 .talents p {
     text-align: left;
     text-transform: uppercase;
@@ -181,12 +177,11 @@ main > .container {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 15px;
     width: 95rem;
     height: 7rem;
     gap: 20px;
     margin-top: 7em;
-    color: #ffffff;
+    color: #fff;
 }
 .socials {
     display: flex;
@@ -200,10 +195,10 @@ main > .container {
     font-size: inherit;
     line-height: 1em;
     text-align: center;
-    color: #f2f0f0;
+    color: #fff;
     text-decoration: none;
 }
-.view-team {
+.view-team-button {
     display: flex;
     align-items: center;
     margin-top: 2.5em;
@@ -213,7 +208,7 @@ main > .container {
     padding: 1em;
     margin: auto 0;
     background-color: #212529;
-    color: #ffffff;
+    color: #fff;
     line-height: 1em;
     text-decoration: none;
     user-select: none;
