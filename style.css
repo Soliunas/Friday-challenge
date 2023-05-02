@@ -224,15 +224,3 @@ main > .container {
 .copyright {
     margin-left: 470px;
 }
-@media (max-width: 440px) {
-    .bg-header,
-    .container,
-    .main-top,
-    .main-container,
-    .talents,
-    .bg-footer {
-        display: flex;
-        flex-direction: column;
-        width: 150px; 
-    }
-}
