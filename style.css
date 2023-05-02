@@ -3,10 +3,7 @@ body * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-body {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .bg-header {
@@ -47,7 +44,6 @@ body {
 }
 
 .link {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-decoration: none;
     color: #ffff;
     margin-left: 20px;
@@ -82,7 +78,7 @@ body {
 
 .herotext {
     color: #fff;
-    font-size: 30px;
+    font-size: 25px;
 }
 .herotext2 {
     color: #fff;
@@ -126,7 +122,7 @@ body {
     margin: 0 calc((100% - 1175px)  / 2);
 }
 .main-text1 {
-    font-size: 30px;
+    font-size: 25px;
 }
 main > .container {
     flex-direction: column;
@@ -187,7 +183,7 @@ main > .container {
     margin-top: 80px;
 }
 .bottom-text2 {
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .talents {
@@ -271,4 +267,7 @@ main > .container {
     width: 120px;
     border-radius: 5px;
 
+}
+.copyright {
+    margin-left: 470px;
 }
