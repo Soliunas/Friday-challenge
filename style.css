@@ -1,5 +1,5 @@
 body,
-body * {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -163,7 +163,8 @@ main > .container {
     padding: 3em;
     margin: 0 calc((100% - 1175px)  / 2);
 }
-.talents h1, .talents p {
+.talents h1,
+.talents p {
     text-align: left;
 }
 .talents p {
@@ -201,11 +202,6 @@ main > .container {
     text-align: center;
     color: #f2f0f0;
     text-decoration: none;
-}
-.socials > .social-link:hover {
-    color: #f1ecf7;
-    margin: -0.25em;
-    font-size: 2em;
 }
 .view-team {
     display: flex;
